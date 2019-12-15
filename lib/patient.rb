@@ -23,7 +23,7 @@ class Patient
   def appointments
     Appointment.all.each do |appointment| 
       if appointment.patient == self 
-        p appointment 
+        puts appointment 
       else 
       end 
     end 
